@@ -22,7 +22,9 @@
 - Feature: Allow using object files from RCT Classic.
 - Feature: Title sequences now testable in-game.
 - Fix: [#816] In the map window, there are more peeps flickering than there are selected (original bug).
+- Fix: [#996, #2589, #2875] Viewport scrolling no longer shakes or gets stuck.
 - Fix: [#1833, #4937, #6138] 'Too low!' warning when building rides and shops on the lowest land level (original bug).
+- Fix: [#2254] Edge scrolling horizontally now has the same speed as vertical edge scrolling.
 - Fix: [#6199] Inverted Hairpin Coaster vehicle tab is not centred.
 - Fix: [#4991] Inverted helices can be built on the Lay Down RC, but are not drawn.
 - Fix: [#5417] Hacked Crooked House tracked rides do not dispatch vehicles.
@@ -41,8 +43,9 @@
 - Fix: [#6198] You cannot cancel RCT1 directory selection.
 - Fix: [#6202] Guests can break occupied benches (original bug).
 - Fix: [#6251] Splash Boats renders flat-to-25-degree pieces in tunnels incorrectly.
-- Fix: [#6261, #6344, #6520] Broken pathfinding after removing park entrances with the tile inspector
+- Fix: [#6261, #6344, #6520] Broken pathfinding after removing park entrances with the tile inspector.
 - Fix: [#6271] Wrong booster speed tooltip text.
+- Fix: [#6301] Track list freezes after deleting track in Track Manager.
 - Fix: [#6308] Cannot create title sequence if title sequences folder does not exist.
 - Fix: [#6318] Cannot sack staff that have not been placed
 - Fix: [#6320] Crash when CSS1.DAT is absent.
@@ -56,6 +59,7 @@
 - Fix: [#6452] Scenario text cut off when switching between 32 and 64-bit builds.
 - Fix: [#6460] Crash when reading corrupt object files.
 - Fix: [#6481] Can't take screenshots of parks with colons in the name.
+- Fix: [#6500] Failure to load resources when config file is missing.
 - Fix: [#6593] Cannot hire entertainers when default scenery groups are not selected (original bug).
 - Fix: Infinite loop when removing scenery elements with >127 base height.
 - Fix: Ghosting of transparent map elements when the viewport is moved in OpenGL mode.

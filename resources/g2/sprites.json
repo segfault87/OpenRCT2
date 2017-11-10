@@ -277,5 +277,8 @@
     },
     {
         "path": "track/mini/booster_2.png"
+    },
+    {
+        "path": "icons/filter_by_name.png"
     }
 ]
